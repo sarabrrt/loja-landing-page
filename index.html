@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Popfun</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+
+  
+ 
+  <body id="body"> 
+
+
+    <header>
+        <nav id="barra-navegacao">
+            <p id="logo">Popfun</p>
+  
+            <ul id="itens-navegacao">
+                <li class="item"><a  href="#">Platform</a></li>
+                <li class="item"><a  href="#">Collection</a></li>
+                <li class="item"><a  href="#">Contact</a></li>      
+              </ul>
+  
+              <div id="btn-navegacao">
+                  <a id="texto-btn-navegacao" href="#">Visit Now</a>
+                  <img id="icone-btn-navegacao" src="../TRABALHO DE WEB/img/proximo.png" alt="">
+              </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <section id="secao">
+        <div id="conteudo-principal">
+            <h1 id="titulo-secao">The new way for interior professionals to buy <span id="f" >furniture</span> </h1>
+            <p id="descricao">Design, quote and purchase in one place. <br> Trust our team of exoerts to deliver</p>
+            <button id="btn-secao">Buy now</button>
+            <div id="detalhe-btn"></div>
+        </div>
+
+
+        <div id="marca-dagua">
+            <p>furnit</p>
+        </div>
+
+        <div id="imagem-secao">
+            <img src="img/interior-design.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <section id="secao-form">
+
+        <p id="titulo-form">Leave your message!</p>
+
+        <form action="">
+
+            <div id="form-nome">
+                <label id="titulo-caixa-nome" for="nome">Name</label>
+                <input class="caixa-texto" type="text" id="nome" />
+            </div>
+            
+            <div id="form-msg">
+                <label id="titulo-caixa-msg" for="msg">Message</label>
+                <textarea class="caixa-texto" id="msg"></textarea>
+            </div> 
+        </form>
+    
+
+        <button id="btn-form" onclick="addComentario()">Submit</button>
+        <div id="detalhe-btn-form"></div>
+
+        <div class="caixa-comentario"></div>
+    </section>
+
+
+    <div>
+        <button id="btn-cor1" class="btn-cor" onclick="mudarCor('cor1')"></button>
+        <button id="btn-cor2" class="btn-cor" onclick="mudarCor('cor2')"></button>
+        <button id="btn-cor3" class="btn-cor" onclick="mudarCor('cor3')"></button>
+        
+    </div>
+    
+
+
+
+
+
+    <footer id="rodape">
+
+        <p id="texto-rodape">To learn more about credits</p>
+        <button id="btn-rodape" onclick="mostrarCreditos()">Click here</button>
+        <div id="detalhe-btn-rodape"></div>
+
+    </footer>
+
+  </body>
